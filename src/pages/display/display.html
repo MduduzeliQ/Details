@@ -1,0 +1,43 @@
+<!--
+  Generated template for the DisplayPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>Information Display</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngFor="let a of you;" class="m">
+  <ion-card-header>
+    <div class="headers"><marquee>
+    <ion-icon name="contact"></ion-icon>
+      Information Shared
+    </marquee>
+    </div>
+    </ion-card-header>
+    <ion-item>
+       <p>{{a.FirstName}}</p>
+    </ion-item>
+    <ion-item>
+       <p>{{a.Surname}}</p>
+    </ion-item>
+    <ion-item>
+     <p>{{a.Identity}}</p> 
+    </ion-item>
+    </ion-card>
+    <div align="center" class="buttons">
+      <button ion-button clear small color="danger" (click)="Next()"> <ion-icon name="home"></ion-icon>Home</button>
+    </div>
+    <ion-footer>
+      <ion-toolbar color="danger">
+        &copy; 2018 Details, All Right Reserved.
+      </ion-toolbar>
+    </ion-footer>
+</ion-content>

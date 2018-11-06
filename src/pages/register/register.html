@@ -1,0 +1,45 @@
+<!--
+  Generated template for the RegisterPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="box">
+    <ion-list>
+
+        <ion-item>
+          <ion-label floating>First Name</ion-label>
+          <ion-input type="text" [(ngModel)]="FirstName"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Surname</ion-label>
+          <ion-input type="text" [(ngModel)]="Surname"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+            <ion-label floating>Identity No.</ion-label>
+            <ion-input type="text" [(ngModel)]="Identity"></ion-input>
+          </ion-item>
+
+      </ion-list>
+      </div>
+      <div align="center" class="buttons">
+      <button ion-button clear small color="danger" (click)="Next()">Register</button>
+    </div>
+    <ion-footer>
+      <ion-toolbar color="danger">
+        &copy; 2018 Details, All Right Reserved.
+      </ion-toolbar>
+    </ion-footer>
+</ion-content>

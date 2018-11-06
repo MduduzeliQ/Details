@@ -1,0 +1,32 @@
+page-register {
+.box{
+    height: 215px;
+    opacity: 0.75;
+    box-shadow: 2px 2px 4px rgb(235, 154, 5);
+    border: 6px orange solid;
+    margin-top: 50%;
+  
+}
+
+ion-content{
+    background-image: url('../../assets/flame.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ion-footer{
+    position: fixed;
+}
+ion-toolbar{
+    text-align: center;
+    font-family: cursive;   
+}
+ion-navbar{
+    text-align: right;
+    font-family: cursive;
+}
+.buttons{
+    font-family: cursive;   
+}
+}
+

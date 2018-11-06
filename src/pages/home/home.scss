@@ -1,0 +1,45 @@
+page-home {
+ion-content{
+    background-image: url('../../assets/flame.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ion-title{
+    text-align: center;
+    color: black ;
+}
+ion-navbar{
+    font-family: cursive;
+}
+ion-icon{
+    color:black;
+}
+ion-footer{
+    text-align: center; 
+    font-family: cursive;   
+    position: fixed;
+}
+ion-card-content{
+    font-family: cursive;
+}
+.m{
+    margin-top:50%;
+}
+ion-card{
+    opacity: 0.75;
+    height: 200px;
+    box-shadow: 2px 2px 4px rgb(235, 154, 5);
+    border:4px orange solid;
+}
+.headers{
+    font-family: cursive;
+    box-shadow: 2px 2px 4px rgb(192, 211, 23);
+    color: white;
+    background-color: orange;
+    text-align:center;
+}
+.buttons{
+    font-family: cursive;   
+}
+}
